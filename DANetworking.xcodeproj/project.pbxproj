@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D77BC216EF0BC400AA9FCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BC116EF0BC400AA9FCA /* Cocoa.framework */; };
+		39D77BCC16EF0BC400AA9FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D77BCA16EF0BC400AA9FCA /* InfoPlist.strings */; };
+		39D77BD016EF0BC400AA9FCA /* DANetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BCF16EF0BC400AA9FCA /* DANetworking.m */; };
+		39D77BD816EF0BC400AA9FCA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BD716EF0BC400AA9FCA /* SenTestingKit.framework */; };
+		39D77BD916EF0BC400AA9FCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BC116EF0BC400AA9FCA /* Cocoa.framework */; };
+		39D77BDC16EF0BC400AA9FCA /* DANetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */; };
+		39D77BE216EF0BC400AA9FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D77BE016EF0BC400AA9FCA /* InfoPlist.strings */; };
+		39D77BE516EF0BC400AA9FCA /* DANetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BE416EF0BC400AA9FCA /* DANetworkingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D77BDA16EF0BC400AA9FCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D77BB516EF0BC400AA9FCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D77BBD16EF0BC400AA9FCA;
+			remoteInfo = DANetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DANetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D77BC116EF0BC400AA9FCA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		39D77BC416EF0BC400AA9FCA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		39D77BC516EF0BC400AA9FCA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		39D77BC616EF0BC400AA9FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39D77BC916EF0BC400AA9FCA /* DANetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DANetworking-Info.plist"; sourceTree = "<group>"; };
+		39D77BCB16EF0BC400AA9FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39D77BCD16EF0BC400AA9FCA /* DANetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DANetworking-Prefix.pch"; sourceTree = "<group>"; };
+		39D77BCE16EF0BC400AA9FCA /* DANetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANetworking.h; sourceTree = "<group>"; };
+		39D77BCF16EF0BC400AA9FCA /* DANetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANetworking.m; sourceTree = "<group>"; };
+		39D77BD616EF0BC400AA9FCA /* DANetworkingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DANetworkingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D77BD716EF0BC400AA9FCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		39D77BDF16EF0BC400AA9FCA /* DANetworkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DANetworkingTests-Info.plist"; sourceTree = "<group>"; };
+		39D77BE116EF0BC400AA9FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39D77BE316EF0BC400AA9FCA /* DANetworkingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANetworkingTests.h; sourceTree = "<group>"; };
+		39D77BE416EF0BC400AA9FCA /* DANetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANetworkingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D77BBA16EF0BC400AA9FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D77BC216EF0BC400AA9FCA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D77BD216EF0BC400AA9FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D77BD816EF0BC400AA9FCA /* SenTestingKit.framework in Frameworks */,
+				39D77BD916EF0BC400AA9FCA /* Cocoa.framework in Frameworks */,
+				39D77BDC16EF0BC400AA9FCA /* DANetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D77BB416EF0BC400AA9FCA = {
+			isa = PBXGroup;
+			children = (
+				39D77BC716EF0BC400AA9FCA /* DANetworking */,
+				39D77BDD16EF0BC400AA9FCA /* DANetworkingTests */,
+				39D77BC016EF0BC400AA9FCA /* Frameworks */,
+				39D77BBF16EF0BC400AA9FCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D77BBF16EF0BC400AA9FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */,
+				39D77BD616EF0BC400AA9FCA /* DANetworkingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D77BC016EF0BC400AA9FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BC116EF0BC400AA9FCA /* Cocoa.framework */,
+				39D77BD716EF0BC400AA9FCA /* SenTestingKit.framework */,
+				39D77BC316EF0BC400AA9FCA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39D77BC316EF0BC400AA9FCA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BC416EF0BC400AA9FCA /* AppKit.framework */,
+				39D77BC516EF0BC400AA9FCA /* CoreData.framework */,
+				39D77BC616EF0BC400AA9FCA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		39D77BC716EF0BC400AA9FCA /* DANetworking */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BCE16EF0BC400AA9FCA /* DANetworking.h */,
+				39D77BCF16EF0BC400AA9FCA /* DANetworking.m */,
+				39D77BC816EF0BC400AA9FCA /* Supporting Files */,
+			);
+			path = DANetworking;
+			sourceTree = "<group>";
+		};
+		39D77BC816EF0BC400AA9FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BC916EF0BC400AA9FCA /* DANetworking-Info.plist */,
+				39D77BCA16EF0BC400AA9FCA /* InfoPlist.strings */,
+				39D77BCD16EF0BC400AA9FCA /* DANetworking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39D77BDD16EF0BC400AA9FCA /* DANetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BE316EF0BC400AA9FCA /* DANetworkingTests.h */,
+				39D77BE416EF0BC400AA9FCA /* DANetworkingTests.m */,
+				39D77BDE16EF0BC400AA9FCA /* Supporting Files */,
+			);
+			path = DANetworkingTests;
+			sourceTree = "<group>";
+		};
+		39D77BDE16EF0BC400AA9FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D77BDF16EF0BC400AA9FCA /* DANetworkingTests-Info.plist */,
+				39D77BE016EF0BC400AA9FCA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39D77BBB16EF0BC400AA9FCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39D77BBD16EF0BC400AA9FCA /* DANetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D77BE816EF0BC400AA9FCA /* Build configuration list for PBXNativeTarget "DANetworking" */;
+			buildPhases = (
+				39D77BB916EF0BC400AA9FCA /* Sources */,
+				39D77BBA16EF0BC400AA9FCA /* Frameworks */,
+				39D77BBB16EF0BC400AA9FCA /* Headers */,
+				39D77BBC16EF0BC400AA9FCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DANetworking;
+			productName = DANetworking;
+			productReference = 39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39D77BD516EF0BC400AA9FCA /* DANetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D77BEB16EF0BC400AA9FCA /* Build configuration list for PBXNativeTarget "DANetworkingTests" */;
+			buildPhases = (
+				39D77BD116EF0BC400AA9FCA /* Sources */,
+				39D77BD216EF0BC400AA9FCA /* Frameworks */,
+				39D77BD316EF0BC400AA9FCA /* Resources */,
+				39D77BD416EF0BC400AA9FCA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D77BDB16EF0BC400AA9FCA /* PBXTargetDependency */,
+			);
+			name = DANetworkingTests;
+			productName = DANetworkingTests;
+			productReference = 39D77BD616EF0BC400AA9FCA /* DANetworkingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D77BB516EF0BC400AA9FCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "dwarf-artisan";
+			};
+			buildConfigurationList = 39D77BB816EF0BC400AA9FCA /* Build configuration list for PBXProject "DANetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39D77BB416EF0BC400AA9FCA;
+			productRefGroup = 39D77BBF16EF0BC400AA9FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D77BBD16EF0BC400AA9FCA /* DANetworking */,
+				39D77BD516EF0BC400AA9FCA /* DANetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D77BBC16EF0BC400AA9FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D77BCC16EF0BC400AA9FCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D77BD316EF0BC400AA9FCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D77BE216EF0BC400AA9FCA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39D77BD416EF0BC400AA9FCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D77BB916EF0BC400AA9FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D77BD016EF0BC400AA9FCA /* DANetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D77BD116EF0BC400AA9FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D77BE516EF0BC400AA9FCA /* DANetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D77BDB16EF0BC400AA9FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D77BBD16EF0BC400AA9FCA /* DANetworking */;
+			targetProxy = 39D77BDA16EF0BC400AA9FCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D77BCA16EF0BC400AA9FCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D77BCB16EF0BC400AA9FCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39D77BE016EF0BC400AA9FCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D77BE116EF0BC400AA9FCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D77BE616EF0BC400AA9FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39D77BE716EF0BC400AA9FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39D77BE916EF0BC400AA9FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
+				INFOPLIST_FILE = "DANetworking/DANetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		39D77BEA16EF0BC400AA9FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
+				INFOPLIST_FILE = "DANetworking/DANetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		39D77BEC16EF0BC400AA9FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
+				INFOPLIST_FILE = "DANetworkingTests/DANetworkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		39D77BED16EF0BC400AA9FCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
+				INFOPLIST_FILE = "DANetworkingTests/DANetworkingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D77BB816EF0BC400AA9FCA /* Build configuration list for PBXProject "DANetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D77BE616EF0BC400AA9FCA /* Debug */,
+				39D77BE716EF0BC400AA9FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D77BE816EF0BC400AA9FCA /* Build configuration list for PBXNativeTarget "DANetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D77BE916EF0BC400AA9FCA /* Debug */,
+				39D77BEA16EF0BC400AA9FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39D77BEB16EF0BC400AA9FCA /* Build configuration list for PBXNativeTarget "DANetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D77BEC16EF0BC400AA9FCA /* Debug */,
+				39D77BED16EF0BC400AA9FCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D77BB516EF0BC400AA9FCA /* Project object */;
+}
