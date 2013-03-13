@@ -1,13 +1,13 @@
 //
-//  DANetworking.m
+//  TaskTest.h
 //  DANetworking
 //
 //  Created by Mars Liu on 13-3-12.
 //  Copyright (c) 2013年 dwarf-artisan. All rights reserved.
 //
 
-#import "DANetworking.h"
+#import <GHUnit/GHUnit.h>
 
-@implementation DANetworking
+@interface TaskTest : GHTestCase
 
 @end

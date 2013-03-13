@@ -7,27 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39D77BC216EF0BC400AA9FCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BC116EF0BC400AA9FCA /* Cocoa.framework */; };
+		396C59C016EF59EA000CCF95 /* TaskTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 396C59BF16EF59EA000CCF95 /* TaskTest.m */; };
+		396C59C216EF5B0C000CCF95 /* gantest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 396C59C116EF5B0C000CCF95 /* gantest-Info.plist */; };
+		396C59C416EF5C52000CCF95 /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396C59C316EF5C52000CCF95 /* GHUnit.framework */; };
+		396C59C516EF5D43000CCF95 /* DATask.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BEF16EF0BF600AA9FCA /* DATask.m */; };
 		39D77BCC16EF0BC400AA9FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D77BCA16EF0BC400AA9FCA /* InfoPlist.strings */; };
-		39D77BD016EF0BC400AA9FCA /* DANetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BCF16EF0BC400AA9FCA /* DANetworking.m */; };
-		39D77BD816EF0BC400AA9FCA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BD716EF0BC400AA9FCA /* SenTestingKit.framework */; };
-		39D77BD916EF0BC400AA9FCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BC116EF0BC400AA9FCA /* Cocoa.framework */; };
-		39D77BDC16EF0BC400AA9FCA /* DANetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */; };
-		39D77BE216EF0BC400AA9FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D77BE016EF0BC400AA9FCA /* InfoPlist.strings */; };
-		39D77BE516EF0BC400AA9FCA /* DANetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BE416EF0BC400AA9FCA /* DANetworkingTests.m */; };
+		39D77BF016EF0BF600AA9FCA /* DATask.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D77BEE16EF0BF600AA9FCA /* DATask.h */; };
+		39D77BF116EF0BF600AA9FCA /* DATask.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BEF16EF0BF600AA9FCA /* DATask.m */; };
+		39D77BF416EF0C2100AA9FCA /* DAHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D77BF216EF0C2100AA9FCA /* DAHTTPRequest.h */; };
+		39D77BF516EF0C2100AA9FCA /* DAHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77BF316EF0C2100AA9FCA /* DAHTTPRequest.m */; };
+		39D77C0416EF144500AA9FCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BC116EF0BC400AA9FCA /* Cocoa.framework */; };
+		39D77C0A16EF144500AA9FCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D77C0816EF144500AA9FCA /* InfoPlist.strings */; };
+		39D77C0C16EF144500AA9FCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77C0B16EF144500AA9FCA /* main.m */; };
+		39D77C1016EF144500AA9FCA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 39D77C0E16EF144500AA9FCA /* Credits.rtf */; };
+		39D77C1316EF144500AA9FCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D77C1216EF144500AA9FCA /* AppDelegate.m */; };
+		39D77C3616EF1AB800AA9FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D77BC616EF0BC400AA9FCA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		39D77BDA16EF0BC400AA9FCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D77BB516EF0BC400AA9FCA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 39D77BBD16EF0BC400AA9FCA;
-			remoteInfo = DANetworking;
+/* Begin PBXCopyFilesBuildPhase section */
+		39D77C3416EF185B00AA9FCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		396C59BE16EF59EA000CCF95 /* TaskTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTest.h; sourceTree = "<group>"; };
+		396C59BF16EF59EA000CCF95 /* TaskTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTest.m; sourceTree = "<group>"; };
+		396C59C116EF5B0C000CCF95 /* gantest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gantest-Info.plist"; sourceTree = "<group>"; };
+		396C59C316EF5C52000CCF95 /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnit.framework; sourceTree = "<group>"; };
 		39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DANetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D77BC116EF0BC400AA9FCA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		39D77BC416EF0BC400AA9FCA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,14 +49,24 @@
 		39D77BC916EF0BC400AA9FCA /* DANetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DANetworking-Info.plist"; sourceTree = "<group>"; };
 		39D77BCB16EF0BC400AA9FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39D77BCD16EF0BC400AA9FCA /* DANetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DANetworking-Prefix.pch"; sourceTree = "<group>"; };
-		39D77BCE16EF0BC400AA9FCA /* DANetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANetworking.h; sourceTree = "<group>"; };
-		39D77BCF16EF0BC400AA9FCA /* DANetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANetworking.m; sourceTree = "<group>"; };
-		39D77BD616EF0BC400AA9FCA /* DANetworkingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DANetworkingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D77BD716EF0BC400AA9FCA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		39D77BDF16EF0BC400AA9FCA /* DANetworkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DANetworkingTests-Info.plist"; sourceTree = "<group>"; };
 		39D77BE116EF0BC400AA9FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39D77BE316EF0BC400AA9FCA /* DANetworkingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANetworkingTests.h; sourceTree = "<group>"; };
 		39D77BE416EF0BC400AA9FCA /* DANetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DANetworkingTests.m; sourceTree = "<group>"; };
+		39D77BEE16EF0BF600AA9FCA /* DATask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATask.h; sourceTree = "<group>"; };
+		39D77BEF16EF0BF600AA9FCA /* DATask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATask.m; sourceTree = "<group>"; };
+		39D77BF216EF0C2100AA9FCA /* DAHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAHTTPRequest.h; sourceTree = "<group>"; };
+		39D77BF316EF0C2100AA9FCA /* DAHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAHTTPRequest.m; sourceTree = "<group>"; };
+		39D77C0316EF144500AA9FCA /* gantest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gantest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D77C0916EF144500AA9FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39D77C0B16EF144500AA9FCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39D77C0D16EF144500AA9FCA /* gantest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gantest-Prefix.pch"; sourceTree = "<group>"; };
+		39D77C0F16EF144500AA9FCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		39D77C1116EF144500AA9FCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39D77C1216EF144500AA9FCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39D77C3716EF1AD300AA9FCA /* DANetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DANetworking.h; sourceTree = "<group>"; };
+		39DDE1A316F059100032EE70 /* DLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +74,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D77BC216EF0BC400AA9FCA /* Cocoa.framework in Frameworks */,
+				39D77C3616EF1AB800AA9FCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39D77BD216EF0BC400AA9FCA /* Frameworks */ = {
+		39D77C0016EF144500AA9FCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D77BD816EF0BC400AA9FCA /* SenTestingKit.framework in Frameworks */,
-				39D77BD916EF0BC400AA9FCA /* Cocoa.framework in Frameworks */,
-				39D77BDC16EF0BC400AA9FCA /* DANetworking.framework in Frameworks */,
+				39D77C0416EF144500AA9FCA /* Cocoa.framework in Frameworks */,
+				396C59C416EF5C52000CCF95 /* GHUnit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +95,7 @@
 			children = (
 				39D77BC716EF0BC400AA9FCA /* DANetworking */,
 				39D77BDD16EF0BC400AA9FCA /* DANetworkingTests */,
+				39D77C0516EF144500AA9FCA /* gantest */,
 				39D77BC016EF0BC400AA9FCA /* Frameworks */,
 				39D77BBF16EF0BC400AA9FCA /* Products */,
 			);
@@ -82,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */,
-				39D77BD616EF0BC400AA9FCA /* DANetworkingTests.octest */,
+				39D77C0316EF144500AA9FCA /* gantest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +113,7 @@
 		39D77BC016EF0BC400AA9FCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				396C59C316EF5C52000CCF95 /* GHUnit.framework */,
 				39D77BC116EF0BC400AA9FCA /* Cocoa.framework */,
 				39D77BD716EF0BC400AA9FCA /* SenTestingKit.framework */,
 				39D77BC316EF0BC400AA9FCA /* Other Frameworks */,
@@ -110,9 +134,13 @@
 		39D77BC716EF0BC400AA9FCA /* DANetworking */ = {
 			isa = PBXGroup;
 			children = (
-				39D77BCE16EF0BC400AA9FCA /* DANetworking.h */,
-				39D77BCF16EF0BC400AA9FCA /* DANetworking.m */,
 				39D77BC816EF0BC400AA9FCA /* Supporting Files */,
+				39D77BEE16EF0BF600AA9FCA /* DATask.h */,
+				39D77BEF16EF0BF600AA9FCA /* DATask.m */,
+				39D77BF216EF0C2100AA9FCA /* DAHTTPRequest.h */,
+				39D77BF316EF0C2100AA9FCA /* DAHTTPRequest.m */,
+				39D77C3716EF1AD300AA9FCA /* DANetworking.h */,
+				39DDE1A316F059100032EE70 /* DLog.h */,
 			);
 			path = DANetworking;
 			sourceTree = "<group>";
@@ -146,6 +174,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		39D77C0516EF144500AA9FCA /* gantest */ = {
+			isa = PBXGroup;
+			children = (
+				39D77C1116EF144500AA9FCA /* AppDelegate.h */,
+				39D77C1216EF144500AA9FCA /* AppDelegate.m */,
+				39D77C0616EF144500AA9FCA /* Supporting Files */,
+				396C59BE16EF59EA000CCF95 /* TaskTest.h */,
+				396C59BF16EF59EA000CCF95 /* TaskTest.m */,
+			);
+			path = gantest;
+			sourceTree = "<group>";
+		};
+		39D77C0616EF144500AA9FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396C59C116EF5B0C000CCF95 /* gantest-Info.plist */,
+				39D77C0816EF144500AA9FCA /* InfoPlist.strings */,
+				39D77C0B16EF144500AA9FCA /* main.m */,
+				39D77C0D16EF144500AA9FCA /* gantest-Prefix.pch */,
+				39D77C0E16EF144500AA9FCA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +205,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D77BF016EF0BF600AA9FCA /* DATask.h in Headers */,
+				39D77BF416EF0C2100AA9FCA /* DAHTTPRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,24 +231,23 @@
 			productReference = 39D77BBE16EF0BC400AA9FCA /* DANetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		39D77BD516EF0BC400AA9FCA /* DANetworkingTests */ = {
+		39D77C0216EF144500AA9FCA /* gantest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39D77BEB16EF0BC400AA9FCA /* Build configuration list for PBXNativeTarget "DANetworkingTests" */;
+			buildConfigurationList = 39D77C2A16EF144500AA9FCA /* Build configuration list for PBXNativeTarget "gantest" */;
 			buildPhases = (
-				39D77BD116EF0BC400AA9FCA /* Sources */,
-				39D77BD216EF0BC400AA9FCA /* Frameworks */,
-				39D77BD316EF0BC400AA9FCA /* Resources */,
-				39D77BD416EF0BC400AA9FCA /* ShellScript */,
+				39D77BFF16EF144500AA9FCA /* Sources */,
+				39D77C0016EF144500AA9FCA /* Frameworks */,
+				39D77C0116EF144500AA9FCA /* Resources */,
+				39D77C3416EF185B00AA9FCA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39D77BDB16EF0BC400AA9FCA /* PBXTargetDependency */,
 			);
-			name = DANetworkingTests;
-			productName = DANetworkingTests;
-			productReference = 39D77BD616EF0BC400AA9FCA /* DANetworkingTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = gantest;
+			productName = gantest;
+			productReference = 39D77C0316EF144500AA9FCA /* gantest.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,7 +271,7 @@
 			projectRoot = "";
 			targets = (
 				39D77BBD16EF0BC400AA9FCA /* DANetworking */,
-				39D77BD516EF0BC400AA9FCA /* DANetworkingTests */,
+				39D77C0216EF144500AA9FCA /* gantest */,
 			);
 		};
 /* End PBXProject section */
@@ -232,58 +285,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39D77BD316EF0BC400AA9FCA /* Resources */ = {
+		39D77C0116EF144500AA9FCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D77BE216EF0BC400AA9FCA /* InfoPlist.strings in Resources */,
+				39D77C0A16EF144500AA9FCA /* InfoPlist.strings in Resources */,
+				39D77C1016EF144500AA9FCA /* Credits.rtf in Resources */,
+				396C59C216EF5B0C000CCF95 /* gantest-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		39D77BD416EF0BC400AA9FCA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39D77BB916EF0BC400AA9FCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D77BD016EF0BC400AA9FCA /* DANetworking.m in Sources */,
+				39D77BF116EF0BF600AA9FCA /* DATask.m in Sources */,
+				39D77BF516EF0C2100AA9FCA /* DAHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39D77BD116EF0BC400AA9FCA /* Sources */ = {
+		39D77BFF16EF144500AA9FCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D77BE516EF0BC400AA9FCA /* DANetworkingTests.m in Sources */,
+				39D77C0C16EF144500AA9FCA /* main.m in Sources */,
+				39D77C1316EF144500AA9FCA /* AppDelegate.m in Sources */,
+				396C59C016EF59EA000CCF95 /* TaskTest.m in Sources */,
+				396C59C516EF5D43000CCF95 /* DATask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		39D77BDB16EF0BC400AA9FCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 39D77BBD16EF0BC400AA9FCA /* DANetworking */;
-			targetProxy = 39D77BDA16EF0BC400AA9FCA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		39D77BCA16EF0BC400AA9FCA /* InfoPlist.strings */ = {
@@ -300,6 +335,22 @@
 				39D77BE116EF0BC400AA9FCA /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39D77C0816EF144500AA9FCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D77C0916EF144500AA9FCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39D77C0E16EF144500AA9FCA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D77C0F16EF144500AA9FCA /* en */,
+			);
+			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -368,6 +419,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
@@ -383,6 +438,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
@@ -392,29 +451,37 @@
 			};
 			name = Release;
 		};
-		39D77BEC16EF0BC400AA9FCA /* Debug */ = {
+		39D77C2B16EF144500AA9FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
-				INFOPLIST_FILE = "DANetworkingTests/DANetworkingTests-Info.plist";
+				GCC_PREFIX_HEADER = "gantest/gantest-Prefix.pch";
+				INFOPLIST_FILE = "gantest/gantest-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		39D77BED16EF0BC400AA9FCA /* Release */ = {
+		39D77C2C16EF144500AA9FCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DANetworking/DANetworking-Prefix.pch";
-				INFOPLIST_FILE = "DANetworkingTests/DANetworkingTests-Info.plist";
+				GCC_PREFIX_HEADER = "gantest/gantest-Prefix.pch";
+				INFOPLIST_FILE = "gantest/gantest-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -437,14 +504,16 @@
 				39D77BEA16EF0BC400AA9FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		39D77BEB16EF0BC400AA9FCA /* Build configuration list for PBXNativeTarget "DANetworkingTests" */ = {
+		39D77C2A16EF144500AA9FCA /* Build configuration list for PBXNativeTarget "gantest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39D77BEC16EF0BC400AA9FCA /* Debug */,
-				39D77BED16EF0BC400AA9FCA /* Release */,
+				39D77C2B16EF144500AA9FCA /* Debug */,
+				39D77C2C16EF144500AA9FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
